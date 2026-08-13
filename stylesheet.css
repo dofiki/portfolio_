@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.screen{
+  
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left{
+    width: 40vw ;
+    background-color: #D1D8BE;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro> h1{
+    font-family: "Parkinsans", sans-serif ;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+.title{
+    font-style: italic;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.email{
+    display: flex;
+     padding: 0.2rem;
+}
+
+.linkedin{
+    display: flex;
+     padding: 0.2rem;
+}
+
+.download{
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+    font-size: 1rem;
+    align-items: center;
+    background-color: rgb(196, 255, 181);
+    padding: 0.2rem;
+    border-radius: 4px;
+    color: black;
+    border: 1px solid black;
+
+
+
+}
+
+.download2{
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+    font-size: 1rem;
+    align-items: center;
+    background-color: rgb(196, 255, 181);
+    padding: 0.2rem;
+    border-radius: 4px;
+    width: 4rem;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+
+
+
+}
+
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skillbox{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.2rem;
+}
+
+.download:hover{
+     background-color: rgb(150, 236, 129);
+     transition: all ease-in 0.1s;
+}
+
+.download2:hover{
+     background-color: rgb(150, 236, 129);
+     transition: all ease-in 0.1s;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exp{
+    display:flex;
+    gap: 10px;
+
+}
+
+.exp-main{
+        display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dot{
+    background-color: rgb(125, 125, 125);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+
+.dot2{
+    background-color: #4f9451;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+
+.line{
+    background-color: rgb(125, 125, 125);
+    height: 180px;
+    width: 2px;
+    margin-left: 5px;
+}
+
+.line2{
+    background-color: #4f9451;
+    height: 140px;
+    width: 2px;
+    margin-left: 5px;
+}
+
+.imgtkr{
+    border-radius: 4px;
+}
+
+.exp-date{
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+}
+
+.exp-date2{
+    color: #38783a;
+    font-size: 0.9rem;
+}
+
+.exp-title{
+    font-weight: bold;
+}
+
+.exp-job{
+    font-style: italic;
+}
+
+.exp-disc{
+    font-size: 1rem;
+}
+
+.proj-icons{
+    display:flex;
+    gap: 10px;
+}
+
+.proj-title{
+    font-weight: bold;
+}
+
+.right{
+    background-color: #89c28b;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project{
+    display: flex;
+      flex-direction: row;
+    gap: 15px;
+}
+
+.project-disc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.involvement{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 1094px) {
+   .screen{
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.right{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imgtkr{
+    width: 15rem;
+}
+
+.intro> h1{
+    font-size: 2rem;
+    
+}
+}
